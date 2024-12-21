@@ -55,7 +55,7 @@
       "custom_css": [
         ".card-wrapper:hover .full-unstyled-link {text-decoration: none;}",
         ".full-unstyled-link {font-size: 17px;}",
-        "ul{gap:10px;}"
+        "ul {gap: 8px;}"
       ],
       "settings": {
         "products_per_page": 16,
