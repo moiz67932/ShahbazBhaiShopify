@@ -3,7 +3,7 @@
   max-width:110px;
   grid-row-start: 4;
   margin: 0 0 1rem;
-  transform: translateX(10%) translateY(-20%);
+  transform: translateX(30%) translateY(-50%);
   z-index: 1;
 }
 
