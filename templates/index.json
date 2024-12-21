@@ -218,6 +218,7 @@
     "carousal_products_collection_moiz_WJPGMC": {
       "type": "carousal-products-collection-moiz",
       "custom_css": [
+        ".card-wrapper:hover .full-unstyled-link{text-decoration:none; }",
         ".full-unstyled-link {font-size: 17px;}"
       ],
       "settings": {
