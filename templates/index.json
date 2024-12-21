@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -26,14 +35,15 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
-        "image_behavior": "none",
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
@@ -41,6 +51,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -50,12 +61,11 @@
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -63,13 +73,181 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 44,
         "padding_bottom": 36
+      }
+    },
+    "otsb_slideshow_1_iYng7t": {
+      "type": "otsb-slideshow-1",
+      "blocks": {
+        "slide_RktVMG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/man-looks-to-the-left-on-a-fall-day_1.jpg",
+            "image_mobile": "shopify://shop_images/man-looks-to-the-left-on-a-fall-day_1.jpg",
+            "overlay_opacity": 0,
+            "image_overlay_color": "#202020",
+            "subheading": "Fall 2024 Collection",
+            "heading": "DESIGNED TO EXPLORE. BUILT TO ENDURE.",
+            "heading_size": 170,
+            "heading_tag": "h2",
+            "text": "",
+            "button_type": "rounded",
+            "button_color_mobile": "hover",
+            "button_animation": "fill_up",
+            "custom_icon_button": "",
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "",
+            "open_new_window_button": false,
+            "button_primary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "open_new_window_button_2": false,
+            "button_primary_2": false,
+            "content_alignment": "custom",
+            "custom_horizontal": 5,
+            "custom_vertical": 60,
+            "alignment": "center",
+            "mobile_custom_position": false,
+            "custom_horizontal_mobile": 50,
+            "custom_vertical_mobile": 50,
+            "alignment_mobile": "center",
+            "heading_color": "#000000",
+            "color_text": "#FFFFFF",
+            "color_text_link": "#FFFFFF",
+            "color_button": "#FFFFFF",
+            "color_text_button": "#000",
+            "color_button_hover": "#6b7050",
+            "color_text_button_hover": "#FFFFFF",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "#FFFFFF"
+          }
+        },
+        "slide_YLbehM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/il_fullxfull.6431558767_babh_1.jpg",
+            "image_mobile": "shopify://shop_images/il_fullxfull.6431558767_babh_1.jpg",
+            "overlay_opacity": 0,
+            "image_overlay_color": "#202020",
+            "subheading": "Luggage. Apparel. Adventure.",
+            "heading": "STAND OUT ON THE SCENIC ROUTE.",
+            "heading_size": 170,
+            "heading_tag": "h2",
+            "text": "",
+            "button_type": "rounded",
+            "button_color_mobile": "color",
+            "button_animation": "fill_up",
+            "custom_icon_button": "",
+            "button_label_1": "Leather Jackets",
+            "button_link_1": "",
+            "open_new_window_button": false,
+            "button_primary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "open_new_window_button_2": false,
+            "button_primary_2": false,
+            "content_alignment": "custom",
+            "custom_horizontal": 90,
+            "custom_vertical": 50,
+            "alignment": "center",
+            "mobile_custom_position": false,
+            "custom_horizontal_mobile": 50,
+            "custom_vertical_mobile": 50,
+            "alignment_mobile": "center",
+            "heading_color": "#000000",
+            "color_text": "#000000",
+            "color_text_link": "#FFFFFF",
+            "color_button": "#FFFFFF",
+            "color_text_button": "#000",
+            "color_button_hover": "#6b7050",
+            "color_text_button_hover": "#FFFFFF",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "#FFFFFF"
+          }
+        },
+        "slide_FPfENA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/low-view-of-young-woman-sat-on-swing_1.jpg",
+            "image_mobile": "shopify://shop_images/low-view-of-young-woman-sat-on-swing_1.jpg",
+            "overlay_opacity": 0,
+            "image_overlay_color": "#202020",
+            "subheading": "Best-Selling Down Jackets",
+            "heading": "NEW SCHOOL FIT. OLD SCHOOL GRIT.",
+            "heading_size": 170,
+            "heading_tag": "h2",
+            "text": "",
+            "button_type": "square",
+            "button_color_mobile": "color",
+            "button_animation": "fill_up",
+            "custom_icon_button": "",
+            "button_label_1": "SHOP THE COLLECTION",
+            "button_link_1": "",
+            "open_new_window_button": false,
+            "button_primary_1": true,
+            "button_label_2": "Button Label",
+            "button_link_2": "",
+            "open_new_window_button_2": false,
+            "button_primary_2": false,
+            "content_alignment": "custom",
+            "custom_horizontal": 5,
+            "custom_vertical": 60,
+            "alignment": "center",
+            "mobile_custom_position": false,
+            "custom_horizontal_mobile": 50,
+            "custom_vertical_mobile": 50,
+            "alignment_mobile": "center",
+            "heading_color": "#000000",
+            "color_text": "#FFFFFF",
+            "color_text_link": "#FFFFFF",
+            "color_button": "#FFFFFF",
+            "color_text_button": "#000",
+            "color_button_hover": "#6b7050",
+            "color_text_button_hover": "#FFFFFF",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "slide_RktVMG",
+        "slide_YLbehM",
+        "slide_FPfENA"
+      ],
+      "custom_css": [
+        "h2 {font-weight: 800;}",
+        ".section-slideshow {min-width: 100vw;}"
+      ],
+      "settings": {
+        "show_hero": false,
+        "auto_play": true,
+        "change_slides_speed": 5,
+        "show_arrow": false,
+        "slider_button_color": "#525151",
+        "slider_button_text_color": "#525151",
+        "slider_button_hover_color": "#ff6600",
+        "slider_button_hover_text_color": "#000",
+        "transition_style": "fade",
+        "slider_visual": "dots",
+        "full_width": true,
+        "padding_full_width": false,
+        "rounded_corner_image": false,
+        "desktop_height": "650",
+        "padding_top": 0,
+        "padding_bottom": 28,
+        "full_width_mobile": true,
+        "rounded_corner_image_mobile": false,
+        "mobile_height": "500",
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 20
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "otsb_slideshow_1_iYng7t"
   ]
 }
