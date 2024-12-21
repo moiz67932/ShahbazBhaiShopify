@@ -327,6 +327,7 @@
         "buttons_qKfWd9"
       ],
       "settings": {
+        "image": "shopify://shop_images/man-walking-with-a-leather-travel-bag.jpg",
         "image_overlay_opacity": 20,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
