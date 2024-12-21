@@ -3,7 +3,7 @@
   max-width:30px;
   grid-row-start: 4;
   margin: 0 0 1rem;
-  transform: translate(-60px, -60px);
+  transform: translate(-60px, -20px);
   z-index: 1;
 }
 
