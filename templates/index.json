@@ -274,7 +274,7 @@
         "button_yWagCR"
       ],
       "custom_css": [
-        "a{background-color:#a97b46;}"
+        "a {background-color: #a97b46;}"
       ],
       "settings": {
         "image": "shopify://shop_images/il_fullxfull.6449142729_ci8v.jpg",
@@ -290,6 +290,64 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_4TJjBb": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_C3gGQE": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE FURTHER YOU GO, THE BETTER IT GETS",
+            "heading_size": "h1"
+          }
+        },
+        "text_VpNxEY": {
+          "type": "text",
+          "settings": {
+            "text": "Our leather luggage and jackets are hand-stitched by craftsmen from the U.S., Mexico and India who share our high standard of excellence. Features such as triple-sewn edges and reinforced stress points ensure that when you buy a Buffalo Jackson, you get quality that lasts lifetimes.",
+            "text_style": "body"
+          }
+        },
+        "buttons_qKfWd9": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify://collections/best-selling",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_C3gGQE",
+        "text_VpNxEY",
+        "buttons_qKfWd9"
+      ],
+      "settings": {
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "product_carousal_moiz_2_fe3djf": {
+      "type": "product-carousal-moiz-2",
+      "settings": {
+        "title": "More Products",
+        "collection": "all-products",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard"
       }
     },
     "featured_collection_XBA3fN": {
@@ -331,6 +389,8 @@
     "carousal_products_collection_moiz_WJPGMC",
     "custom_collection_grid_moiz_jKdhaJ",
     "image_with_text_T8QXXg",
+    "image_banner_4TJjBb",
+    "product_carousal_moiz_2_fe3djf",
     "featured_collection_XBA3fN"
   ]
 }
