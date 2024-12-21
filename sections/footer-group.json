@@ -31,14 +31,14 @@
           "type": "link_list",
           "settings": {
             "heading": "Categories",
-            "menu": "footer"
+            "menu": "categories"
           }
         },
         "link_list_CwdbUi": {
           "type": "link_list",
           "settings": {
             "heading": "Customer Support",
-            "menu": "footer"
+            "menu": "customer-account-main-menu"
           }
         }
       },
@@ -48,19 +48,22 @@
         "link_list_PHpaQL",
         "link_list_CwdbUi"
       ],
+      "custom_css": [
+        ".footer__content-bottom-wrapper {height: 0px; overflow: hidden;}"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
-        "show_social": true,
+        "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "payment_enable": true,
-        "show_policy": true,
+        "payment_enable": false,
+        "show_policy": false,
         "margin_top": 0,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     }
   },
