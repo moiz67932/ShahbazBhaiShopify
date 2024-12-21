@@ -49,7 +49,7 @@
         "link_list_CwdbUi"
       ],
       "custom_css": [
-        ".footer__content-bottom-wrapper {height: 0px; overflow: hidden;}"
+        ".footer__content-bottom {height: 0px; overflow: hidden;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
