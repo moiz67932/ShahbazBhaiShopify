@@ -1,0 +1,251 @@
+{{ 'flickity.css' | asset_url | stylesheet_tag }}
+{{ 'quick-add.css' | asset_url | stylesheet_tag }}
+
+<script src="{{ 'flickity.pkgd.js' | asset_url }}" defer></script>
+
+{%- unless section.settings.quick_add == 'none' -%}
+  <script src="{{ 'product-form.js' | asset_url }}" defer></script>
+{%- endunless -%}
+
+{%- if section.settings.quick_add == 'standard' -%}
+  <script src="{{ 'quick-add.js' | asset_url }}" defer></script>
+{%- endif -%}
+
+{%- if section.settings.quick_add == 'bulk' -%}
+  <script src="{{ 'quantity-popover.js' | asset_url }}" defer></script>
+  <script src="{{ 'price-per-item.js' | asset_url }}" defer></script>
+  <script src="{{ 'quick-order-list.js' | asset_url }}" defer></script>
+{%- endif -%}
+
+<section class="page-width section">
+  <h2 class="heading">{{ section.settings.title }}</h2>
+  <div class="carousel2">
+    {% assign collection = collections[section.settings.collection] %}
+    {%- for product in collection.products -%}
+      <div class="carousel2-cell">
+        {% render 'custom-card-product-moiz',
+          card_product: product,
+          show_secondary_image: section.settings.show_secondary_image,
+          show_vendor: section.settings.show_vendor,
+          show_rating: section.settings.show_rating,
+          quick_add: section.settings.quick_add,
+          section_id: section.id
+        %}
+      </div>
+    {%- endfor -%}
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elem = document.querySelector('.carousel2');
+    var flkty = new Flickity(elem, {
+      cellAlign: 'left',
+      contain: false,
+      pageDots: false,
+      prevNextButtons: true,
+      draggable: true,
+      adaptiveHeight: false,
+      wrapAround: false,
+      percentPosition: true,
+      groupCells: 1,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            groupCells: 1
+          }
+        },
+        {
+          breakpoint: 1024,
+          settings: {
+            groupCells: 2
+          }
+        },
+        {
+          breakpoint: 1200,
+          settings: {
+            groupCells: 3
+          }
+        },
+        {
+          breakpoint: 9999,
+          settings: {
+            groupCells: 4
+          }
+        }
+      ]
+    });
+  });
+</script>
+
+<style>
+  .section {
+         /* text-align: center;
+         margin-bottom: 48px;
+         margin-top: 48px;
+         padding: 0 15px; */
+    display: flex;
+         flex-direction: column;
+         text-align: center;
+         justify-content: center;
+         margin-bottom: 48px;
+         padding: 0 15px;
+       }
+
+    .heading {
+           border: 1px solid #808080;
+           border-radius: 20px;
+           padding: 10px 20px;
+           display: inline-block;
+           margin: 0 auto;
+           font-size: 14px;
+         }
+
+    .carousel2 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .carousel2-cell {
+    width: 23%;
+    margin-right: 25px;
+
+  }
+   .carousel2:focus,
+  .flickity-button:focus {
+    outline: none;
+    box-shadow: none; /* This removes any focus outline or shadow */
+  }
+
+  .flickity-button {
+    background: transparent;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+    transform: translateY(-80px);
+  }
+
+  .flickity-button svg {
+    fill: black;
+    transition: fill 0.3s;
+
+  }
+
+  .flickity-button:hover {
+    background-color: black;
+  }
+
+  .flickity-button:hover svg {
+    fill: white;
+  }
+
+  .flickity-prev-next-button:focus {
+      outline: none; /* Remove default outline on focus */
+    }
+
+       .flickity-page-dots {
+         bottom: -30px;
+       }
+
+       .flickity-page-dots .dot {
+         width: 8px;
+         height: 8px;
+         opacity: 0.25;
+         background: #000;
+       }
+
+       .flickity-page-dots .dot.is-selected {
+         opacity: 1;
+       }
+
+       /* Responsive adjustments */
+       @media screen and (max-width: 768px) {
+         .carousel2-cell {
+           width: calc(100% - 20px);
+         }
+       }
+
+       @media screen and (min-width: 769px) and (max-width: 1024px) {
+         .carousel2-cell {
+           width: calc(50% - 20px);
+         }
+       }
+
+       @media screen and (min-width: 1025px) {
+         .carousel2-cell {
+           width: 275px;
+         }
+       }
+</style>
+
+{% schema %}
+{
+  "name": "Products Carousal Moiz 2",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+    "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "t:sections.featured-collection.settings.title.default",
+      "label": "t:sections.featured-collection.settings.title.label"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "t:sections.featured-collection.settings.collection.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_secondary_image",
+      "default": false,
+      "label": "t:sections.featured-collection.settings.show_secondary_image.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "default": false,
+      "label": "t:sections.featured-collection.settings.show_vendor.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_rating",
+      "default": false,
+      "label": "t:sections.featured-collection.settings.show_rating.label",
+      "info": "t:sections.featured-collection.settings.show_rating.info"
+    },
+    {
+      "type": "select",
+      "id": "quick_add",
+      "default": "none",
+      "label": "t:sections.main-collection-product-grid.settings.quick_add.label",
+      "info": "t:sections.main-collection-product-grid.settings.quick_add.info",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.main-collection-product-grid.settings.quick_add.options.option_1"
+        },
+        {
+          "value": "standard",
+          "label": "t:sections.main-collection-product-grid.settings.quick_add.options.option_2"
+        },
+        {
+          "value": "bulk",
+          "label": "t:sections.main-collection-product-grid.settings.quick_add.options.option_3"
+        }
+      ]
+    },
+  ],
+  "presets": [
+    {
+      "name": "Products Carousal Moiz 2"
+    }
+  ]
+}
+{% endschema %}
