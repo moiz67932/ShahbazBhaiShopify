@@ -50,12 +50,6 @@
           "disabled": true,
           "settings": {}
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "collapsible_tab_QWDpt4": {
           "type": "collapsible_tab",
           "settings": {
@@ -63,6 +57,12 @@
             "icon": "star",
             "content": "{{ product.description }}",
             "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -74,8 +74,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "collapsible_tab_QWDpt4"
+        "collapsible_tab_QWDpt4",
+        "share"
       ],
       "custom_css": [
         ".product__info-wrapper {text-align: left;}"
