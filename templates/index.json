@@ -217,6 +217,9 @@
     },
     "carousal_products_collection_moiz_WJPGMC": {
       "type": "carousal-products-collection-moiz",
+      "custom_css": [
+        ".full-unstyled-link {font-size: 17px;}"
+      ],
       "settings": {
         "title": "Best Selling",
         "collection": "best-selling",
@@ -344,7 +347,7 @@
     "product_carousal_moiz_2_fe3djf": {
       "type": "product-carousal-moiz-2",
       "custom_css": [
-        ".full-unstyled-link{font-size:17px;}"
+        ".full-unstyled-link {font-size: 17px;}"
       ],
       "settings": {
         "title": "More Products",
