@@ -343,6 +343,9 @@
     },
     "product_carousal_moiz_2_fe3djf": {
       "type": "product-carousal-moiz-2",
+      "custom_css": [
+        ".full-unstyled-link{font-size:17px;}"
+      ],
       "settings": {
         "title": "More Products",
         "collection": "all-products",
