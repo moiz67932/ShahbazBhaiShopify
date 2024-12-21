@@ -13,6 +13,41 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "brand_information_RUjyXc": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "link_list_wUcJK3": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Main Menu",
+            "menu": "main-menu"
+          }
+        },
+        "link_list_PHpaQL": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Categories",
+            "menu": "footer"
+          }
+        },
+        "link_list_CwdbUi": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Customer Support",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "brand_information_RUjyXc",
+        "link_list_wUcJK3",
+        "link_list_PHpaQL",
+        "link_list_CwdbUi"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": false,
