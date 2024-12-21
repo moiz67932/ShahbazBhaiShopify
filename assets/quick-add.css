@@ -1,9 +1,9 @@
 .quick-add {
   position: relative;
-  max-width:30px;
+  max-width:60px;
   grid-row-start: 4;
   margin: 0 0 1rem;
-  transform: translate(-60px, -20px);
+  transform: translate(-45px, -25px);
   z-index: 1;
 }
 
