@@ -52,6 +52,10 @@
     },
     "custom_product_grid_moiz_EjyAJn": {
       "type": "custom-product-grid-moiz",
+      "custom_css": [
+        ".card-wrapper:hover .full-unstyled-link {text-decoration: none;}",
+        ".full-unstyled-link {font-size: 17px;}"
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
