@@ -228,6 +228,9 @@
     },
     "featured_collection_XBA3fN": {
       "type": "featured-collection",
+      "custom_css": [
+        ".color-scheme-1{height:0px; overflow:hidden;}"
+      ],
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
