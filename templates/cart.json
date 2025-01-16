@@ -12,8 +12,8 @@
     "cart-items": {
       "type": "main-cart-items",
       "custom_css": [
-        ".title-wrapper-with-link {display: flex; align-items: center; justify-content: center; text-align: center; background-color: #787474; width: 100%; padding: 7px;}",
-        "h1 {color: white; text-transform: uppercase; font-size: 26px;}",
+        ".title-wrapper-with-link {display: flex; align-items: center; justify-content: center; text-align: center; background-color: #787474; width: 100%; padding: 13px;}",
+        "h1 {color: white; text-transform: uppercase; font-size: 21px;}",
         ".cart__contents {max-width: 1200px; min-width: 70%;}"
       ],
       "settings": {
