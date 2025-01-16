@@ -12,7 +12,7 @@
     "cart-items": {
       "type": "main-cart-items",
       "custom_css": [
-        ".cart-pag{max-width:1200px; }"
+        ".title-wrapper-with-link {display: flex; align-items: center; justify-content: center; text-align: center; background-color: #787474;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
