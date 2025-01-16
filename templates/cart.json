@@ -13,7 +13,7 @@
       "type": "main-cart-items",
       "custom_css": [
         ".title-wrapper-with-link {display: flex; align-items: center; justify-content: center; text-align: center; background-color: #787474; width: 100%;}",
-        ".cart__contents {display: flex; align-items: center; justify-content: center; max-width: 1200px; min-width: 1200px;}"
+        ".cart__contents {max-width: 1200px; min-width: 1200px;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
