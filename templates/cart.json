@@ -12,10 +12,11 @@
     "cart-items": {
       "type": "main-cart-items",
       "custom_css": [
-        ".title-wrapper-with-link {display: flex; align-items: center; justify-content: center; text-align: center; background-color: #787474; width: 100%; padding: 18px;}",
+        ".title-wrapper-with-link {display: flex; align-items: center; justify-content: center; text-align: center; background-color: #787474; width: 100%; padding: 20px;}",
         "h1 {color: white; text-transform: uppercase; font-size: 21px;}",
         ".cart__contents {max-width: 1200px; min-width: 70%;}",
-        "th {font-size: 13px; color: black;}"
+        "th {font-size: 13px; color: black;}",
+        ".cart-item__image{min-height:150px; min-width:150px;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
